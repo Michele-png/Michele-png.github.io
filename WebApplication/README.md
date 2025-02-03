@@ -1,10 +1,10 @@
-## JaidPhis Start-Up
+# JaidPhis Start-Up Prototype
 
 JaidPhis is a start-up developing an AI model capable of analyzing computer camera frames and diagnosing musculoskeletal disorders. The system leverages this information to devise a gamified recovery plan. A prototype was built to validate the B2B business model and was presented to HR directors for feedback. Below is a description of the MVP implementation and its components.
 
 ---
 
-### Prototype Implementation
+## Functional Analysis
 
 The challenge was that no readily available AI model existed for the diagnostic task. To overcome this, a twofold architecture was created. Here’s how it works:
 
@@ -21,7 +21,7 @@ The challenge was that no readily available AI model existed for the diagnostic 
 </div>
 
 
-### Code Overview
+## Technical Implementation
 
 Below, we present the key components of the app code that implements the described prototype.
 
@@ -37,7 +37,7 @@ This application is responsible for collecting feedback from the cofounder about
 
 ---
 
-## `customer_app.py` -  Analysis and Feedback Output
+### 2. `customer_app.py` -  Analysis and Feedback Output
 
 The  application allows a customer to upload a video, which is then processed for pose estimation using MediaPipe. The application displays the video frames with overlaid pose landmarks and retrieves feedback from Firebase Firestore for the customer after the video processing.
 
