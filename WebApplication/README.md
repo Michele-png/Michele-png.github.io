@@ -41,7 +41,7 @@ This application is responsible for collecting feedback from the cofounder about
 
 The  application allows a customer to upload a video, which is then processed for pose estimation using MediaPipe. The application displays the video frames with overlaid pose landmarks and retrieves feedback from Firebase Firestore for the customer after the video processing.
 
-### Key Features:
+**Key Features:**
 - **Video Upload**: The customer uploads a video in formats like `.mp4`, `.avi`, or `.mov`.
 - **Pose Estimation**: Uses MediaPipe to detect and draw pose landmarks over the video frames.
 - **Feedback Display**: After the video is processed, feedback is retrieved from Firebase Firestore and displayed on the interface.
