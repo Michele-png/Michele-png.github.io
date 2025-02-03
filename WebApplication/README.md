@@ -1,2 +1,2 @@
 
-![Web App Architecture](Digital Resources/WebAppArchitecture.jpg)
+![Web App Architecture]("../Digital Resources/WebAppArchitecture.jpg")
