@@ -11,3 +11,21 @@
 <img src="https://github.com/Michele-png/Michele-png.github.io/blob/main/Digital%20Resources/WebAppArchitecture.jpg" alt="Logo" width="500">
 </div>
 
+
+## JaidPhis Start-Up
+
+JaidPhis is a start-up developing an AI model capable of analyzing computer camera frames and diagnosing musculoskeletal disorders. The system leverages this information to devise a gamified recovery plan. A prototype was built to validate the B2B business model and was presented to HR directors for feedback. Below is a description of the MVP implementation and its components.
+
+---
+
+### Prototype Implementation
+
+The challenge was that no readily available AI model existed for the diagnostic task. To overcome this, a twofold architecture was created. Here’s how it works:
+
+1. **Video Recording**: The corporate client records themselves using their laptop's front camera for one minute.
+2. **Uploading the Video**: The client uploads the video to a web application.
+3. **Postural Analysis**: The uploaded video is displayed with postural lines overlaid. These lines are derived from a simplified machine learning model using conventional Python libraries.
+4. **Feedback**: During a video call, a co-founder visually assesses the HR director's posture and provides feedback via an online form.
+5. **Simulating AI Output**: The app simulates the final product by displaying the co-founder's feedback as if it were the output from a multimodal AI model.
+
+---
