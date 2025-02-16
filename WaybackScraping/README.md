@@ -1,6 +1,3 @@
-Ecco il documento riscritto in Git Markdown per il tuo file README su GitHub:
-
-```markdown
 # Web Archive Data Analysis Using Wayback Machine
 
 ## Introduzione
@@ -46,6 +43,3 @@ Questo progetto dimostra l'uso efficace della Wayback Machine per l'analisi dei 
 - **Espansione del Dataset**: Includere più siti web e una gamma più ampia di snapshot per migliorare l'analisi.
 - **Tecniche Avanzate di NLP**: Applicare tecniche di NLP più avanzate, come l'analisi del sentiment e il topic modeling, per ottenere approfondimenti più dettagliati.
 - **Visualizzazione**: Sviluppare strumenti di visualizzazione per presentare meglio i risultati e i modelli identificati nei dati.
-```
-
-Puoi copiare e incollare questo testo direttamente nel file README della tua repository GitHub. Se hai bisogno di ulteriori modifiche o aggiustamenti, fammelo sapere!
